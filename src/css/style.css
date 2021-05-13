@@ -1,9 +1,42 @@
+:root {
+    --clr-white: #ffffff; 
+    --clr-black: #000000; 
+
+    --clr-Primary: #181D26; 
+    --clr-Secondary: #F2668B; 
+    --clr-Conplementary1: #4214A6; 
+    --clr-Complementary2: #DC30F2; 
+    --clr-Complementary3: #741BF2; 
+
+    --clr-Extra: #11BFAE; 
+    --clr-Extra2: #0DA6A6; 
+    --clr-Extra3: #2D5559; 
+
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size:tall: 1.8rem; 
+    --font-size-tittle: 2.4rem; 
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 html {
     font-size: 62.5%;
+}
+ul {
+    text-decoration: none;
+}
+a{
+    list-style: none;
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: 'Rubik', sans-serif;
 }
