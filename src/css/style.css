@@ -26,10 +26,10 @@ html {
     font-size: 62.5%;
 }
 ul {
-    text-decoration: none;
+    list-style: none;
 }
 a{
-    list-style: none;
+    text-decoration: none;
 }
 img {
     object-fit: cover;
@@ -39,4 +39,25 @@ img {
 }
 body {
     font-family: 'Rubik', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 8rem;
+}
+.navBar {
+    width: 100%;
+    height: 8vh;
+    background-color: var(--clr-Primary);
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBar__logo {
+    font-size: var(--font-size-tittle);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--clr-Secondary);
 }
