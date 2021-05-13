@@ -1,0 +1,25 @@
+{
+  "name": "web_gamer",
+  "version": "1.0.0",
+  "description": "Project Website animation with javascript",
+  "main": "src/js/index.js",
+  "scripts": {
+    "gamer": "node src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Website-Gamming_Animation.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "gamming",
+    "gamers"
+  ],
+  "author": "Chris04 <placebo0704@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Website-Gamming_Animation/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Website-Gamming_Animation#readme"
+}
