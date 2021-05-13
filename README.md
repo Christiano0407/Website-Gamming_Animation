@@ -64,6 +64,9 @@ Website inspired by:
 - [Lottiejs](https://airbnb.io/lottie/#/)
 - [Threejs](https://threejs.org/)
 
+# Javascript Library
+- [Midnight](https://aerolab.github.io/midnight.js/)
+
 # Animate Css
 - [AnimateCss](https://animate.style/)
 
