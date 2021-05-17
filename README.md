@@ -78,9 +78,6 @@ Website inspired by:
 - 4-Estilos Visuales.
 - 5-Otros.
 
-![](C:\Users\Christian Velázquez\OneDrive\Imágenes\Capturas de pantalla\2021-05-17 (1).png)
-
-> Follow your heart.
 # MIT License 
 
 - [Choosealicense](https://choosealicense.com/)
