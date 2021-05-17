@@ -121,7 +121,7 @@ color: var(--clr-Complementary2);
            /*===Services===*/
 
 .services {
-    padding: 8rem calc((100vw - 1200px) /2);
+    padding: 0rem 8rem calc((100vw - 1200px) /2);
 }
 .service__container {
     display: grid;
@@ -167,3 +167,9 @@ color: var(--clr-Complementary2);
 }
            /*Membership__Section*/
 
+.membership {
+    background-color: var(--clr-Primary);
+    color: var(--clr-Extra);
+    padding:  6rem 0rem calc((100vw - 1100px) / 2);
+    text-align: center;
+}
