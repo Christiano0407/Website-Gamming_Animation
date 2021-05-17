@@ -47,7 +47,7 @@ body {
 /* } */
 .navBar {
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     background-color: var(--clr-Primary);
     padding: 0.5rem calc((100vw - 1200px) / 2); 
     display: flex;
@@ -145,3 +145,23 @@ color: var(--clr-Complementary2);
     font-size: clamp(2rem, 6vw, 3rem);
     margin-bottom: 1rem;
 }
+.services__features {
+    list-style: none;
+}
+.services__feature {
+    margin-bottom: 1.6rem;
+    font-size: clamp(1rem, 5vw, 1.2rem);
+}
+.fa-microchip, .fa-gamepad, .fa-sim-card,
+.fa-vr-cardboard, .fa-sitemap, .fa-volleyball-ball {
+ margin-right: 0.5rem;
+ color: var(--clr-Conplementary1);
+}
+@media screen and (max-width: 768px) {
+    .service__container {
+        grid-template-columns: 1fr;
+      }
+     
+}
+           /*Membership__Section*/
+
