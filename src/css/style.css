@@ -363,7 +363,7 @@ grid-column: 2 / 3;
 
      /*   =====  EMAIL */
 .email {
-    background:linear-gradient(100deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../assets/img/nine.jpg);
+    background:linear-gradient(100deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../assets/img/three.jpg);
     height: 450px;
     width: 100%;
     object-fit: cover;
@@ -376,10 +376,38 @@ grid-column: 2 / 3;
     padding: 5rem calc((100vw - 1300px) / 2);
     color: var(--clr-white);
 }
+.email__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .email__content h1 {
-    color: var(--clr-white);
+    color: var(--clr-Extra);
     text-align: center;
     margin-bottom: 1rem;
     font-size: clamp(1rem, 5vw, 3rem);
     padding: 0 1rem;
+}
+.email__content p {
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    color: var(--clr-white);
+}
+
+form {
+    z-index: 10;
+}
+.form__wrapp input {
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    width: 350px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+@media screen and (max-width: 768px) {
+    
 }
