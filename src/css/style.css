@@ -409,5 +409,24 @@ form {
     border-radius: 1rem;
 }
 @media screen and (max-width: 768px) {
-    
+    .form__wrapp {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .form__wrapp input {
+        margin-bottom: 1rem;
+        width: 100%;
+        margin-right: 0;
+    }
+    .form__wrapp .button {
+        width: 100%;
+        min-width: 350px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .form__wrapp .button {
+        width: 100%;
+        min-width: 250px;
+    }
 }
