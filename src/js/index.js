@@ -36,3 +36,30 @@ gsap.from(`.animate-img`, {
     opacity: 0, 
     x: -200,
 }); 
+
+gsap.from(`.animate-membership`, {
+    ScrollTrigger: `.animate-membership`, 
+    duration: 1, 
+    opacity: 0, 
+    y: -150, 
+    stagger: 0.3, 
+    delay: 0.5
+}); 
+
+gsap.from(`.animate-card`, {
+    ScrollTrigger: `.animate-card`, 
+    duration: 1, 
+    opacity: 0, 
+    y: -150, 
+    stagger: 0.3, 
+    delay: 0.2,
+}); 
+
+gsap.from(`animate-team`, {
+    ScrollTrigger: `.animate-team`, 
+    duration: 1.5, 
+    opacity: 0, 
+    y: -150, 
+    stagger: 0.3, 
+    delay: 0.2, 
+})
