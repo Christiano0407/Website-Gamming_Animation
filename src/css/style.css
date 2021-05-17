@@ -161,7 +161,9 @@ color: var(--clr-Complementary2);
     .service__container {
         grid-template-columns: 1fr;
       }
-     
+     .services_img {
+         object-fit: cover;
+     }
 }
            /*Membership__Section*/
 
