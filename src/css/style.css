@@ -121,12 +121,13 @@ color: var(--clr-Complementary2);
            /*===Services===*/
 
 .services {
-    padding: 0rem 8rem calc((100vw - 1200px) /2);
+   /*  padding: 0rem 8rem calc((100vw - 1200px) /2); */
+   padding-bottom: 8rem;
 }
 .service__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
+    padding: 0rem 6rem;
 }
 .services_img {
     width: 100%;
@@ -155,7 +156,7 @@ color: var(--clr-Complementary2);
 .fa-microchip, .fa-gamepad, .fa-sim-card,
 .fa-vr-cardboard, .fa-sitemap, .fa-volleyball-ball {
  margin-right: 0.5rem;
- color: var(--clr-Conplementary1);
+ color: var(--clr-Extra);
 }
 @media screen and (max-width: 768px) {
     .service__container {
@@ -173,3 +174,70 @@ color: var(--clr-Complementary2);
     padding:  6rem 0rem calc((100vw - 1100px) / 2);
     text-align: center;
 }
+.membership h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.membership__desc {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    margin-bottom: 3rem;
+    padding: 1rem;
+    color: var(--clr-Complementary2);
+}
+.membership__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.membership__card {
+    padding: 2rem;
+    min-height: 450px;
+    width: 375px;
+    background-color: var(--clr-Complementary2);
+    color: var(--clr-Extra);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+.membership__perks {
+    min-height: 150px;
+}
+.membership__perks p {
+    color: var(--clr-white);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--clr-Extra2);
+}
+.membership__card h3 {
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 1100px) {
+    .membership__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .membership__card {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+    .button {
+        padding: 2rem 3rem;
+        font-size: 1.4rem;
+    }
+    .membership__perks p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    }
+
+}
+
+         /*====TEAM-SECTION==== */
